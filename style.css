@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.naving ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.naving ul li {
+    margin-top: 40px;
+}
+
+.naving ul li a {
+    text-decoration: none;
+    color: purple;
+    margin: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: gold;
+    padding: 10px 15px;
+    border-radius: 10px 15px;
+}
+
+.naving ul li a:hover {
+    transition: 0.5s ease;
+    background-color: aqua;
+    color: #000;
+}
+
+.login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.login form {
+    background-color: orangered;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: 5px solid greenyellow;
+    border-radius: 5px;
+    box-shadow: 10px 15px 10px #000;
+}
+
+.login input {
+    height: 25px;
+    width: 250px;
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.login button {
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+.login button:hover {
+    transition: 0.5s ease;
+    background-color: cyan;
+    color: #000;
+}
